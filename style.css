@@ -1,0 +1,333 @@
+*{
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    list-style: none;
+}
+body{
+    background-color: rgb(249, 85, 26);
+}
+.m-heder{
+    width: 100%;
+    height: 100px;
+    background-color: white;
+    position: relative;
+    position: sticky;
+    top: 0;
+    z-index: 10 ;
+}
+.m-heder h1{
+    padding-top: 30px;
+    padding-left: 60px;
+    color: #f4551a;
+}
+.m-heder h2{
+    position: absolute;
+    left: 120px;
+    bottom:25px ;
+    font-family: 'Kolker Brush', cursi;
+    font-size: 50px;
+    cursor: pointer;
+}
+.m-heder h3{
+    position: absolute;
+    left: 90px;
+    bottom:40px ;
+}
+.search-bar{
+    position: relative;
+}
+.example{
+    position: absolute;
+    left: 450px;
+    bottom: 12px;
+}
+.menu-area{
+    position: relative;
+}
+.menu-area ul{
+    display: flex;   
+    position: absolute;
+    left: 800px;
+    bottom: 20px;
+}
+.menu-area ul li a{
+    padding: 20px;
+    font-family: 'Roboto', sans-serif;
+}
+.menu-area ul li:hover{
+   background-color: aqua;
+   border-radius: 5px;
+}
+.conteiner{
+    box-shadow: -3px 10px 55px -4px #000;
+    width: 300px;
+    height: 550px;
+    margin-top: 30px;
+    margin-left: 120px;
+    border-radius: 40px;
+    transition: 0.5s;
+    display: inline-block;
+}
+.conteiner img{
+    width: 300px;
+    height: 330px;
+    padding-left: px;
+    padding-top: 40px;
+}
+.conteiner:hover{
+    background-color: aliceblue;
+    transform: scale(1.1);
+}
+.main{
+    color: black;
+    font-family: 'Island Moments', cursive;
+}
+.about h1{
+    color: black;
+    font-family: 'Roboto', sans-serif;
+    font-size: 30px;
+    margin-left: 10px;
+}
+.premium {
+    color: #000;
+    font-family: 'Roboto', sans-serif;
+    padding-left: 10px;
+}
+.about h3{
+    color: #000;
+    font-family: 'Roboto', sans-serif;
+    font-size: 20px;
+    padding-left: 15px;
+}
+.conteiner #photo{
+    width: 400px;
+    height: 330px;
+    padding-bottom: 0px;
+}
+.section2{
+    height: 120vh;
+    width: 100%;
+    background-color: rgb(249, 85, 26);
+    margin-top: 50px;
+}
+.conteiner2{
+    box-shadow: -3px 10px 55px -4px #000;
+    max-width: 200px; 
+    max-height: 250px;
+    margin-top: 30px;
+    margin-left: 30px;
+    border-radius: 10px;
+    transition: 0.5s;
+    display:inline-flex;
+}
+span{
+    color: black;
+    font-family: 'Roboto', sans-serif;
+    padding-left: 4px;
+    font-size: 20px;
+}
+.img-area img{
+    width: 150px;
+    height: 200px;
+    padding-left: 20px;
+}
+.img-area h3{
+    color: white;
+    font-family: 'Roboto', sans-serif;
+    padding-left: 5px;
+}
+.conteiner2:hover{
+    background-color: aliceblue;
+    transform: scale(1.1);
+    border-radius: 10px;
+}
+.section3{
+    height: 80vh;
+    width: 100%;
+    background-color: rgb(249, 85, 26);
+    margin-top: px;
+}
+.contract-about{
+    box-shadow: -3px 10px 55px -4px rgb(255, 255, 255);
+    width: 400px;
+    height: 450px;
+    border-radius: 10px;
+    margin: 0 auto;
+}
+.contract-about{
+    display: flex;
+    flex-direction: column;
+}
+.form-main{
+    align-items: center;
+    text-align: center;
+    border: 2px solid white;
+    width: 400px;
+    height: 300px;
+    margin: 0 auto;
+    margin-top: 50px;
+    border-radius: 10px;
+    box-shadow: -3px 10px 55px -4px rgb(255, 255, 255);
+    border-radius: 10px;
+}
+.form1{
+    display: flex;
+    padding: 20px;
+    color: #fff;
+    font-size: 20px ;
+}
+.name{
+    padding-left: 60px;
+}
+.form2{
+    display: flex;
+    padding: 20px;
+    color: #fff;
+    font-size: 20px;
+}
+.gmail{
+    padding-left: 60px;
+}
+.form3{
+    display: flex;
+    padding: 20px;
+    color: #fff;
+    font-size: 20px;
+    height: 60px;
+}
+.message{
+    padding-left: 40px;
+}
+.sub-btn{
+    color: black;
+    background-color: rgb(255, 217, 0);
+    width: 120px;
+    height: 40px;
+    margin-left: 150px;
+    margin-top: 20px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+.social-media i{
+    height: 13px;
+    margin: 20px;
+    cursor: pointer;
+}
+.social-media{
+    text-align: center;
+    margin-top: -300px;
+}
+@media screen and (max-width:600px){
+    .m-heder{
+        width: 140%;
+        height: 100px;
+        background-color: white;
+        position: sticky;
+        top: 0;
+        z-index: 10 ;
+    }
+   .m-heder h1{
+        padding-top: 10px;
+        padding-left: 20px;
+        color: #f4551a;
+    }
+    .m-heder h3{
+        left: 50px;
+        bottom:60px ;
+    }
+    .m-heder h2{
+        left: 80px;
+        bottom:43px ;
+        font-family: 'Kolker Brush', cursi;
+        font-size: 50px;
+        cursor: pointer;
+    }
+.search-bar{
+        right: 250px;
+        top: 20px;   
+}
+#crg{
+   color: #f4551a; 
+}
+.search-bar{
+    display: flex;
+}
+.menu-area ul{
+    display: flex;   
+    position: absolute;
+    left: 50px;
+    top: 20px;
+}
+.menu-area ul li a{
+    padding: 10px;
+    font-family: 'Roboto', sans-serif;
+}
+.menu-area ul li a:hover{
+    background-color: aqua;
+    border-radius: 7px;
+ }
+ .conteiner{
+    box-shadow: -3px 10px 55px -4px #000;
+    width: 300px;
+    height: 550px;
+    margin-top: 30px;
+    margin-left: 80px;
+    border-radius: 40px;
+    transition: 0.5s;
+    display:inline-block ;
+}
+.section2{
+    height: 60vh;
+    width: 100%;
+    background-color: rgb(249, 85, 26);
+    margin-top: 50px;
+}
+
+.conteiner2{
+    box-shadow: -3px 10px 55px -4px #000;
+    width: 130px;
+    height: 200px;
+    padding-top: 0px;
+    margin-left: 40px;
+    border-radius: 10px;
+    transition: 0.5s;
+    display:inline-flex;
+}
+.conteiner2 img{
+    width: 130px;
+    height: 130px;
+    right: 20px;
+}
+.section3{
+    height: 80vh;
+    width: 100%;
+    background-color: rgb(249, 85, 26);
+    padding-top:120px;
+}
+.social-media{
+    text-align: center;
+    margin-top: -100px;
+}
+.form-main{
+    align-items: center;
+    text-align: center;
+    border: 2px solid white;
+    width: 300px;
+    height: 300px;
+    margin: 0 auto;
+    margin-top: 50px;
+    border-radius: 10px;
+    box-shadow: -3px 10px 55px -4px rgb(255, 255, 255);
+    border-radius: 10px;
+}
+.name{
+    padding-left: 35px;
+}
+.gmail{
+    padding-left: 35px;
+}
+.message{
+    padding-left: 20px;
+}
+}
